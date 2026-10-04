@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Trang không tồn tại</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #2b2d42;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .error-card {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            max-width: 480px;
+            width: 100%;
+        }
+        .error-code {
+            font-size: 84px;
+            font-weight: 800;
+            color: #d90429;
+            line-height: 1;
+            margin-bottom: 12px;
+        }
+        .error-title {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #1d3557;
+        }
+        .error-message {
+            font-size: 15px;
+            color: #6c757d;
+            line-height: 1.6;
+            margin-bottom: 28px;
+        }
+        .home-btn {
+            display: inline-block;
+            background-color: #1d3557;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 28px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 14px;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .home-btn:hover {
+            background-color: #457b9d;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-card">
+        <div class="error-code">404</div>
+        <h1 class="error-title">Rất tiếc! Trang không tồn tại</h1>
+        <p class="error-message">
+            Đường dẫn bạn đang truy cập không tồn tại hoặc đã chuyển sang địa chỉ khác. 
+            Vui lòng kiểm tra lại URL hoặc quay về trang chủ.
+        </p>
+        <a href="/" class="home-btn">Quay lại Trang chủ</a>
+    </div>
+</body>
+</html>
